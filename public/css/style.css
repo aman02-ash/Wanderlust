@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+
+/* Navbar CSS */
+
+.navbar {
+  background-color: #fff;
+}
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+  
+}
+
+/* Footer CSS */
+
+footer{
+    /* width: 100vw; */
+    margin-left: -150px;
+}
+.f-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ebebeb;
+  height: 8rem;
+  align-items: space-evenly;
+  text-align: center;
+}
+
+.f-links, .f-socials,.f-brands{
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.f-socials i{
+    margin-right: 1rem;
+}
+
+.f-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-links a:hover {
+  text-decoration: underline;
+}
+
+/* Image or cards  on All listings */
+
+.card-listing{
+    border: none !important;
+    margin-bottom: 2rem ;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2 ;
+    background-color: white;
+}
+.add-btn{
+    border: none !important;
+    background-color: #fe424d !important;
+}
+
+/* Show page css */
+.show-img{
+  height: 30vh;
+}
+.btns{
+  display: flex;
+}
+.show-card{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
