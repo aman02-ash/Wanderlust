@@ -14,7 +14,8 @@ router.post("/",isLoggedIn,async(req,res)=>{
     let newReview = new Review(req.body.review);
     newReview.author = req.user._id;
     console.log(newReview);
-    listings.reviews.push(newReview);
+    listings.reviews.push(newReview._id); 
+
     
     await newReview.save();
     await listings.save();
